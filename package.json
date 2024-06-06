@@ -1,5 +1,5 @@
 {
-  "name": "goggle-meet-clone",
+  "name": "next-video-call",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,25 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "classnames": "^2.3.2",
-    "lodash": "^4.17.21",
-    "lucide-react": "^0.294.0",
-    "next": "13.5.6",
-    "peerjs": "^1.5.1",
+    "dotenv": "^16.4.5",
+    "lucide-react": "^0.378.0",
+    "next": "14.2.3",
+    "pusher": "^5.2.0",
+    "pusher-js": "^8.4.0-rc2",
     "react": "^18",
-    "react-copy-to-clipboard": "^5.1.0",
-    "react-dom": "^18",
-    "react-player": "^2.13.0",
-    "socket.io": "^4.7.2",
-    "socket.io-client": "^4.7.2",
-    "uuid": "^9.0.1"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "autoprefixer": "^10",
-    "eslint": "^8",
-    "eslint-config-next": "13.5.6",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
     "postcss": "^8",
-    "postcss-nesting": "^12.0.1",
-    "tailwindcss": "^3"
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
